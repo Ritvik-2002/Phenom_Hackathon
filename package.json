@@ -1,0 +1,13 @@
+{
+  "name": "phenom",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "collector": "node src/collector.js",
+    "consumer": "node src/consumer.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4"
+  }
+}
